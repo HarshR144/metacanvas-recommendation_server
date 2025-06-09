@@ -66,7 +66,7 @@ def initialize_mongodb():
         
         # Get database - explicitly specify the database name
         # Since your MongoDB database is named "test", we'll use that
-        db = client['test']  # or client.test
+        db = client['metacanvas']  # or client.test
         logger.info(f"✓ Connected to database: {db.name}")
         
         # Test database access by listing collections
